@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: modelverse-backend
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./backend:/app
+    environment:
+      - NODE_ENV=development
+      - DATABASE_HOST=${DATABASE_HOST}
+      - DATABASE_PORT=${DATABASE_PORT}
+      - DATABASE_USER=${DATABASE_USER}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - BASE_URL=http://localhost:3001
+    depends_on:
+      - frontend
+
+  frontend:
+    build: ./frontend
+    container_name: modelverse-frontend
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:3001
+    depends_on:
+      - backend
+
+# Nota: Supabase no se incluye porque ya se usando como servicio externo.
+# Asegúrate de tener un archivo `.env` con las variables necesarias o definirlas manualmente en el entorno local.
