@@ -144,6 +144,7 @@ modelverse-platform/
 ---
 Este proyecto fue desarrollado como parte de una Prueba Técnica para el rol de Desarrollador Senior Fullstack con Unity.
 
+
 Autor: Ezequiel Suárez
 
 Para cualquier duda o feedback, no dudes en contactarme. 
