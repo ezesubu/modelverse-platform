@@ -2,6 +2,7 @@
 
 Plataforma web para la visualización, gestión y visualización interactiva de modelos 3D, desarrollada como prueba técnica para el rol de **Desarrollador Senior Fullstack con Unity**.
 
+![AppPreview1](https://github.com/user-attachments/assets/a39194d8-955d-48e4-98c5-6b6d6c6d5226)
 
 ---
 
