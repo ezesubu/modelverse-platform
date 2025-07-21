@@ -1,6 +1,6 @@
 # ModelVerse Platform
 
-Plataforma web para la visualización y gestión interactiva de modelos 3D, desarrollada como prueba técnica para el rol de **Desarrollador Senior Fullstack con Unity**.
+Plataforma web para la visualización y gestión interactiva de modelos 3D
 
 ![AppPreview1](https://github.com/user-attachments/assets/a39194d8-955d-48e4-98c5-6b6d6c6d5226)
 
@@ -162,7 +162,3 @@ Este script también elimina modelos y usuarios previos si existen.
 * [`docker-compose.yml`](./docker-compose.yml): configuración backend/frontend
 
 ---
-
-## 🧪 Prueba técnica
-
-Este proyecto fue desarrollado como parte de una **Prueba Técnica** para el puesto de **Desarrollador Senior Fullstack con Unity** en Imagine Apps.
